@@ -15,7 +15,7 @@ const NavBar = () => {
         <ul  className="navbar-nav flex-grow-1 justify-content-between">
         <Link className="navbar-brand" id='NavTitle' to="home" >Portfolio</Link>
           <li  className="nav-item"><Link className="nav-link" to="home" spy={true} smooth={true} offset={-100} duration={500}>Home</Link></li>
-          <li  className="nav-item"><Link className="nav-link" to="about" spy={true} smooth={true} offset={-100} duration={500}>About-US</Link></li>
+          <li  className="nav-item"><Link className="nav-link" to="about" spy={true} smooth={true} offset={-100} duration={500}>About-Me</Link></li>
           <li  className="nav-item"><Link className="nav-link" to="education" spy={true} smooth={true} offset={-100} duration={500}>Education</Link></li>
           <li  className="nav-item"><Link className="nav-link" to="projects" spy={true} smooth={true} offset={-100} duration={500}>Projects</Link></li>
           <li  className="nav-item"><Link className="nav-link" to="certificate" spy={true} smooth={true} offset={-100} duration={500}>Certificate</Link></li>
