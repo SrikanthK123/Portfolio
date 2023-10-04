@@ -1,38 +1,251 @@
-.App {
-  text-align: center;
+
+.nav-item{
+  color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#HomePage{
+  background-color: aliceblue;
+  margin-top: 20px;
+  border-radius: 15px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.HomePage{
+  width: 100%;
+  height: auto;
+  background-color: grey;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.nav-link{
+  color: aliceblue;
+  width:fit-content ;
+}
+.nav-link:hover{
+  color: rgb(237, 65, 191);
+}
+.AboutPage{
+  width: 100%;
+  height: auto;
+  background-color: grey;
+}
+#AboutPage{
+  background-color: aliceblue;
+  border-radius: 15px;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.aboutSub{
+  margin-top: 20px;
+  background-color: aqua;
+}
+.lead{
+  text-align: justify;
+  
+}
+#para{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+#education{
+  width: 100%;
+  height: auto;
+ 
+}
+/* Education.css */
+#edubox {
+  text-align: center;
+}
+.Education{
+  background-color: grey;
+  width: 100vw;
+  height: auto;
+}
+.nav-item{
+  cursor: pointer;
+  color: black;
+}
+#NavTitle{
+  color: white;
+  cursor: pointer;
+}
+#NavTitle:hover{
+  color: blue;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.ProjectPage{
+  background-color: grey;
+  width: 100vw;
+  height: 100%;
+}
+.CertificatePage{
+ 
+  width: 100vw;
+  height: auto;
+}
+
+#LangCard0{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("https://www.sourcekode.in/img/cours/core-java-advance-java-training-and-placement-institute.jpg");
+  background-repeat: no-repeat;
+ 
+  background-size: cover;
+}
+#LangCard0:hover{
+  background: url("https://www.sourcekode.in/img/cours/core-java-advance-java-training-and-placement-institute.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#LangCard1{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://www.dailymoss.com/wp-content/uploads/2021/03/learn-the-most-popular-coding-language-with-this-online-python-course-60554e35242fa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#LangCard1:hover{
+  background:  url("https://www.dailymoss.com/wp-content/uploads/2021/03/learn-the-most-popular-coding-language-with-this-online-python-course-60554e35242fa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#LangCard2{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://2.bp.blogspot.com/-BmEQNqLhoV0/WfhVtzNizzI/AAAAAAAAfwY/AqpjuAKZ9hAjEhab3AToYlUnwaeE9GhUwCLcBGAs/s1600/C-langauge-facts.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#LangCard2:hover{
+  background:  url("https://2.bp.blogspot.com/-BmEQNqLhoV0/WfhVtzNizzI/AAAAAAAAfwY/AqpjuAKZ9hAjEhab3AToYlUnwaeE9GhUwCLcBGAs/s1600/C-langauge-facts.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#LangCard3{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://img.freepik.com/premium-photo/html-system-websites-concept_23-2150323550.jpg?w=996");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#LangCard3:hover{
+  background:  url("https://img.freepik.com/premium-photo/html-system-websites-concept_23-2150323550.jpg?w=996");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#LangCard4{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://www.quertime.com/wp-content/uploads/2012/07/best_css3_code_generators_makers_and_editors.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#LangCard4:hover{
+  background:  url("https://www.quertime.com/wp-content/uploads/2012/07/best_css3_code_generators_makers_and_editors.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#LangCard5{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://cms-assets.tutsplus.com/uploads/users/71/courses/1261/preview_image/practice-javascript-and-learn-functions-400x277.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#LangCard5:hover{
+  background:  url("https://cms-assets.tutsplus.com/uploads/users/71/courses/1261/preview_image/practice-javascript-and-learn-functions-400x277.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#LangCard6{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://www.jhannat.com/uploads/images/202302/image_430x256_63fcf430cc650.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#LangCard6:hover{
+  background:  url("https://www.jhannat.com/uploads/images/202302/image_430x256_63fcf430cc650.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#LangCard7{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("https://miro.medium.com/v2/resize:fit:3200/1*El82DHzQwuFxMIXzBzKjUA.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#LangCard7:hover{
+  background: url("https://miro.medium.com/v2/resize:fit:3200/1*El82DHzQwuFxMIXzBzKjUA.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#LangCard8{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("https://ncube-digest.com/wp-content/uploads/2020/07/Express-JS.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#LangCard8:hover{
+  background: url("https://ncube-digest.com/wp-content/uploads/2020/07/Express-JS.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#LangCard9{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("https://1.bp.blogspot.com/-xfjcAVsLG98/Xhmlk143NEI/AAAAAAAAHV4/QHDCdzFmnCUmHTKEoZfWQhOL1uEDYBrHQCLcBGAsYHQ/s640/MongoDB.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#LangCard9:hover{
+  background: url("https://1.bp.blogspot.com/-xfjcAVsLG98/Xhmlk143NEI/AAAAAAAAHV4/QHDCdzFmnCUmHTKEoZfWQhOL1uEDYBrHQCLcBGAsYHQ/s640/MongoDB.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#LangCard10{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://www.linuxcapable.com/wp-content/uploads/2023/02/How-to-Back-Up-and-Restore-a-MySQL-Database.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#LangCard10:hover{
+  background:  url("https://www.linuxcapable.com/wp-content/uploads/2023/02/How-to-Back-Up-and-Restore-a-MySQL-Database.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#LangCard11{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/107459562/original/4756caae8b30efb290aaab85271587928c2c5e42/develop-django-web-applications-and-django-rest-api-mobile-app.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#LangCard11:hover{
+  background:  url("https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/107459562/original/4756caae8b30efb290aaab85271587928c2c5e42/develop-django-web-applications-and-django-rest-api-mobile-app.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#GermsLogo{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./Images/logo.png');
+ transition: 1s ease-in-out;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#GermsLogo:hover{
+  background:  url('./Images/MovieIcon.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#BlockChain{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./Images/Blockchain.jpg');
+  transition: 1s ease-in-out;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+#BlockChain:hover{
+  background:  url('./Images/Blockchain1.jpg');
+  background-repeat: no-repeat;
+   background-size: cover;
+}
+#Clgwebsite{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./Images/clgimg2.jpg');
+  transition: 1s ease-in-out;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+#Clgwebsite:hover{
+  background:  url('./Images/clgwebsite2.jpg');
+  background-repeat: no-repeat;
+   background-size: cover;
+}
+.btn{
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+  border-color: black;
+  transition: 0.5s ease-in-out;
+
+}
+.btn:hover{
+  background-color: black;
+  color: white;
+  border-color: white;
+  
 }
