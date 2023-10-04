@@ -10,7 +10,7 @@ const Certificate = () => {
   return (
     <>
       <div className="CertificatePage" id="certificate">
-      
+      <h1 className="display-5 fw-bold text-body-emphasis" style={{textAlign:'center',marginTop:'10px'}} >Certificate</h1>
       </div>
       <div class="container my-5">
     <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
