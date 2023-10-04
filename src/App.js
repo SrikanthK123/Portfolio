@@ -2,7 +2,7 @@ import './App.css';
 import About from './components/About';
 import Certificate from './components/Certificate';
 import Education from './components/Education';
-import ErrorPage from './components/ErrorPage';
+import Footer from './components/Footer';
 import Home from './components/Home';
 import NavBar from './components/NavBar';
 import Projects from './components/Projects';
@@ -18,6 +18,7 @@ function App() {
         <Projects/>
         <Certificate/>
         <Skills/>
+        <Footer/>
         
 
         
