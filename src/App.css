@@ -206,34 +206,45 @@
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./Images/logo.png');
  transition: 1s ease-in-out;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 #GermsLogo:hover{
   background:  url('./Images/MovieIcon.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 #BlockChain{
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./Images/Blockchain.jpg');
   transition: 1s ease-in-out;
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: 100% 100%;
 }
 #BlockChain:hover{
   background:  url('./Images/Blockchain1.jpg');
   background-repeat: no-repeat;
-   background-size: cover;
+  background-size: 100% 100%;
 }
 #Clgwebsite{
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./Images/clgimg2.jpg');
   transition: 1s ease-in-out;
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: 100% 100%;
 }
 #Clgwebsite:hover{
   background:  url('./Images/clgwebsite2.jpg');
   background-repeat: no-repeat;
-   background-size: cover;
+  background-size: 100% 100%;
+}
+#Cinema{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./Images/Cinema1.jpg');
+  transition: 1s ease-in-out;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#Cinema:hover{
+  background:  url('./Images/Cinema2.jpg');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
 }
 .btn{
   background-color: white;
