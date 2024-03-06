@@ -11,8 +11,8 @@ const Home = () => {
         <img src={Homologo} data-aos="zoom-in" class="d-block mx-lg-auto img-fluid" style={{borderRadius:'15px'}} alt="Bootstrap Themes" width="700" height="500" loading="lazy"/>
       </div>
       <div class="col-lg-6">
-        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3" data-aos="zoom-in" >Hey there! I'm Srikanth. I have a passion, for web development. 🚀</h1>
-        <p class="lead" data-aos="zoom-in" >I'm a web developer who absolutely loves designing functional websites. My journey into the world of web development began with a curiosity and a strong desire to bring my ideas to life on the internet.</p>
+        <h1 class="display-5 fw-bold  lh-1 mb-3 text-white" data-aos="zoom-in" >Hey there! I'm Srikanth. I have a passion, for web development. 🚀</h1>
+        <p class="lead text-white" data-aos="zoom-in" >I'm a web developer who absolutely loves designing functional websites. My journey into the world of web development began with a curiosity and a strong desire to bring my ideas to life on the internet.</p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
         </div>
       </div>

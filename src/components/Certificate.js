@@ -10,9 +10,10 @@ const Certificate = () => {
   return (
     <>
       <div className="CertificatePage" id="certificate">
-      <h1 className="display-5 fw-bold text-body-emphasis" style={{textAlign:'center',marginTop:'10px'}} data-aos="zoom-in"  >Certificate</h1>
+        <div style={{display:'flex',justifyContent:'center'}}>
+      <h2 className=" fw-bold text-body-emphasis p-2 my-4" style={{textAlign:'center',fontFamily:'-moz-initial',backgroundColor:'skyblue',borderRadius:'15px' ,boxShadow:'rgba(0, 0, 0, 0.24) 0px 3px 8px'}} data-aos="zoom-in"  >Certificate</h2>
       </div>
-      <div class="container my-5" >
+      <div class="container my-3" >
     <div   class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
       <div class="col-lg-7 p-3 p-lg-5 pt-lg-3"data-aos="fade-up">
         <h1 class="display-4 fw-bold lh-1 text-body-emphasis" data-aos="zoom-in"> "TCS CodeVita Season-10 Certificate" </h1>
@@ -54,6 +55,7 @@ const Certificate = () => {
           <img class="rounded-lg-3"  data-aos="zoom-in"style={{height:'400px',borderRadius:'10px'}} src= {yourImage1} alt="" width="450"/>
       </div>
     </div>
+  </div>
   </div>
     </>
   );

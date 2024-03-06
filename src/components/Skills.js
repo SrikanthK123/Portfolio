@@ -1,160 +1,60 @@
 import React from 'react'
-
+import { SkillsList } from './InformationCard'
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 const Skills = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    arrows : false,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
   return (
     <>
     <div className='SkillsPage' id='skills'>
-    <div class="container px-4 py-5" id="custom-cards">
-      <h1 className="display-5 fw-bold text-body-emphasis" style={{textAlign:'center',color:"white"}} data-aos="zoom-in" >Skills</h1>
-
-    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-      <div class="col"  >
-        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" id='LangCard0' data-aos="fade-up"  >
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" data-aos="zoom-in" style={{textAlign:'center',color:"white"}}>"JAVA"</h3>
-            <h6 data-aos="fade-up"  style={{textAlign:'justify'}}>Java is a versatile and widely-used programming language known for its portability and strong ecosystem, making it suitable for building a wide range of applications..</h6>
-            <a href="https://dev.java/" class="btn btn-primary" data-aos="zoom-in" >
-            Learn
-          </a>
+    <div class="container px-4" id="custom-cards">
+    <div style={{display:'flex',justifyContent:'center'}}>
+    <h2 className="fw-bold text-body-emphasis p-2 my-4" style={{textAlign:'center',fontFamily:'-moz-initial',backgroundColor:'skyblue',borderRadius:'15px' ,boxShadow:'rgba(0, 0, 0, 0.24) 0px 3px 8px'}} >Skills</h2>
+</div>
+    
+<Slider {...settings}  >
+      {
+        SkillsList.map((item,index)=>(
+          <div class="col"  >
+          <div class="card" id='SkillsCard'>
+        <div class="header">
+          <div class="image">
+            <img src= {`${item.Icon}`} alt='Language' style={{width:'50px',height:'50px'}} />
+          </div>
+          <div class="content">
+             <span class="title"> {item.Title} </span>
+             <p class="message"> {item.Desc.slice(0,100)}.... </p>
+          </div>
+           <div class="actions my-4">
+            <a href={`${item.Url}`}>
+             <button class="desactivate" type="button">Learn</button>
+             </a>
           </div>
         </div>
-      </div>
-
-      <div class="col"   >
-        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" id='LangCard1' data-aos="fade-up" >
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" data-aos="zoom-in" style={{textAlign:'center',color:"white"}}>"PYTHON"</h3>
-            <h6 data-aos="fade-up" >Python is a popular, beginner-friendly language celebrated for its simplicity and readability, making it an excellent choice for web development, data analysis, and automation.</h6>
-            <a href="https://www.python.org/" class="btn btn-primary" data-aos="zoom-in" >
-            Learn
-          </a>
-           
-          </div>
         </div>
-      </div>
-
-      <div class="col"  >
-        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" id='LangCard2' data-aos="fade-up" >
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" data-aos="zoom-in" style={{textAlign:'center',color:"#defcf9"}}>"C-LANGUAGE"</h3>
-            <h6 data-aos="fade-up" >Made a website that helps students to stay-on date with college. ..... </h6>
-           
-            <a href="https://learn.microsoft.com/en-us/cpp/c-language/?Learn=msvc-170" class="btn btn-primary" data-aos="zoom-in" >
-            Learn
-          </a>
-         
-          </div>
         </div>
-      </div>
-      <div class="col"  >
-        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" id='LangCard3' data-aos="fade-up" >
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" data-aos="zoom-in" style={{textAlign:'center',color:"white"}}>"HTML"</h3>
-            <h6 data-aos="fade-up" >HTMLis a foundational technologies for web development, with HTML structuring web content</h6>
-            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" class="btn btn-primary" data-aos="zoom-in" >
-            Learn
-          </a>
-           
-          </div>
-        </div>
-      </div>
-      <div class="col"  >
-        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" id='LangCard4' data-aos="fade-up">
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" data-aos="zoom-in"style={{textAlign:'center',color:"white"}}>"CSS"</h3>
-            <h6 data-aos="fade-up" >CSS styling it to create visually appealing and responsive websites.</h6>
-            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" class="btn btn-primary" data-aos="zoom-in" >
-            Learn
-          </a>
-           
-          </div>
-        </div>
-      </div>
-      <div class="col"  >
-        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" id='LangCard5' data-aos="fade-up" >
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" data-aos="zoom-in" style={{textAlign:'center',color:"white"}}>"JAVASCRIPT"</h3>
-            <h6 data-aos="fade-up" >JavaScript is a crucial front-end and back-end language, empowering interactive web applications with its dynamic nature and extensive libraries.</h6>
-            <a href="https://developer.mozilla.org/en-US/docs/Web/javascript" class="btn btn-primary" data-aos="zoom-in" >
-            Learn
-          </a>
-           
-          </div>
-        </div>
-      </div>
-      <div class="col"  >
-        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" id='LangCard6' data-aos="fade-up" >
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" data-aos="zoom-in" style={{textAlign:'center',color:"#defcf9"}}>"REACTJS"</h3>
-            <h6 data-aos="fade-up" >React.js is a popular JavaScript library for building user interfaces, known for its component-based architecture and efficient rendering, making it a go-to choice for creating interactive web applications.</h6>
-            <a href="https://legacy.reactjs.org/docs/getting-started.html" class="btn btn-primary" data-aos="zoom-in" >
-            Learn
-          </a>
-           
-          </div>
-        </div>
-      </div>
-      <div class="col"  >
-        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" id='LangCard7' data-aos="fade-up" >
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" data-aos="zoom-in" style={{textAlign:'center',color:"white"}}>"NODEJS"</h3>
-            <h6 data-aos="fade-up" >Node.js is a server-side runtime environment that enables JavaScript to be used for building scalable and high-performance network applications, making it a key component of the MERN stack.</h6>
-            <a href="https://nodejs.org/en/docs" class="btn btn-primary" data-aos="zoom-in" >
-            Learn
-          </a>
-           
-          </div>
-        </div>
-      </div>
-      <div class="col"  >
-        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" id='LangCard8' data-aos="fade-up" >
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" data-aos="zoom-in" style={{textAlign:'center',color:"white"}}>"EXPRESSJS"</h3>
-            <h6 data-aos="fade-up" >Express.js is a minimalist and flexible Node.js web application framework that simplifies building robust and efficient back-end APIs and web services</h6>
-            <a href="https://expressjs.com/" class="btn btn-primary" data-aos="zoom-in" >
-            Learn
-          </a>
-           
-          </div>
-        </div>
-      </div>
-      <div class="col"  >
-        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" id='LangCard9' data-aos="fade-up" >
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" data-aos="zoom-in" style={{textAlign:'center',color:"white"}}>"MONGODB"</h3>
-            <h6 data-aos="fade-up" >MongoDB is a NoSQL database system that offers flexibility and scalability for managing large volumes of unstructured or semi-structured data in modern web applications</h6>
-            <a href="https://www.mongodb.com/docs/" class="btn btn-primary" data-aos="zoom-in" >
-            Learn
-          </a>
-           
-          </div>
-        </div>
-      </div>
-      <div class="col"  >
-        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" id='LangCard10' data-aos="fade-up" >
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" data-aos="zoom-in" style={{textAlign:'center',color:"white"}} >"MYSQL"</h3>
-            <h6 data-aos="zoom-in" >MySQL is a powerful open-source relational database management system used for managing and storing data in web applications, known for its performance and reliability.</h6>
-            <a href="https://dev.mysql.com/doc/" class="btn btn-primary" data-aos="zoom-in" >
-            Learn
-          </a>
-           
-          </div>
-        </div>
-      </div>
-      <div class="col"  >
-        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" id='LangCard11' data-aos="fade-up">
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" data-aos="zoom-in" style={{textAlign:'center',color:"white"}}>"DJANGO"</h3>
-            <h6 data-aos="fade-up" >Django is a high-level Python web framework known for its rapid development capabilities and robust security features, making it ideal for building complex web applications</h6>
-            <a href="https://docs.djangoproject.com/en/4.2/" class="btn btn-primary" data-aos="zoom-in" >
-            Learn
-          </a>
-           
-          </div>
-        </div>
-      </div>
-    </div>
+        ))
+      }
+  
+  </Slider>
   </div>
   </div>
     </>

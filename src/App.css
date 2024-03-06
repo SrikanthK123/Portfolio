@@ -1,17 +1,18 @@
 
+
 .nav-item{
   color: black;
 }
 
 #HomePage{
-  background-color: aliceblue;
+  background-color: #051622;
   margin-top: 20px;
   border-radius: 15px;
 }
 .HomePage{
   width: 100%;
   height: auto;
-  background-color: grey;
+  background-color: #f5f5f5 ;
 }
 .nav-link{
   color: aliceblue;
@@ -23,7 +24,7 @@
 .AboutPage{
   width: 100%;
   height: auto;
-  background-color: grey;
+  background-color: #f5f5f5 ;
 }
 #AboutPage{
   background-color: aliceblue;
@@ -45,14 +46,14 @@
 #education{
   width: 100%;
   height: auto;
- 
+ background-color: #f5f5f5 ;
 }
 /* Education.css */
 #edubox {
   text-align: center;
 }
 .Education{
-  background-color: grey;
+  background-color: #f5f5f5 ;
   width: 100vw;
   height: auto;
 }
@@ -70,138 +71,22 @@
 
 
 .ProjectPage{
-  background-color: grey;
-  width: 100vw;
+  background-color: #f5f5f5 ;
+  width: 100%;
   height: 100%;
 }
 .CertificatePage{
- 
-  width: 100vw;
+ background-color: #f5f5f5 ;
+  width: 100%;
   height: auto;
 }
+.SkillsPage{
+  background-color: #f5f5f5 ;
+   width: 100%;
+   height: auto;
+   padding: 20px;
+ }
 
-#LangCard0{
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("https://www.sourcekode.in/img/cours/core-java-advance-java-training-and-placement-institute.jpg");
-  background-repeat: no-repeat;
- 
-  background-size: cover;
-}
-#LangCard0:hover{
-  background: url("https://www.sourcekode.in/img/cours/core-java-advance-java-training-and-placement-institute.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#LangCard1{
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://www.dailymoss.com/wp-content/uploads/2021/03/learn-the-most-popular-coding-language-with-this-online-python-course-60554e35242fa.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#LangCard1:hover{
-  background:  url("https://www.dailymoss.com/wp-content/uploads/2021/03/learn-the-most-popular-coding-language-with-this-online-python-course-60554e35242fa.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#LangCard2{
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://2.bp.blogspot.com/-BmEQNqLhoV0/WfhVtzNizzI/AAAAAAAAfwY/AqpjuAKZ9hAjEhab3AToYlUnwaeE9GhUwCLcBGAs/s1600/C-langauge-facts.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#LangCard2:hover{
-  background:  url("https://2.bp.blogspot.com/-BmEQNqLhoV0/WfhVtzNizzI/AAAAAAAAfwY/AqpjuAKZ9hAjEhab3AToYlUnwaeE9GhUwCLcBGAs/s1600/C-langauge-facts.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#LangCard3{
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://img.freepik.com/premium-photo/html-system-websites-concept_23-2150323550.jpg?w=996");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#LangCard3:hover{
-  background:  url("https://img.freepik.com/premium-photo/html-system-websites-concept_23-2150323550.jpg?w=996");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#LangCard4{
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://www.quertime.com/wp-content/uploads/2012/07/best_css3_code_generators_makers_and_editors.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#LangCard4:hover{
-  background:  url("https://www.quertime.com/wp-content/uploads/2012/07/best_css3_code_generators_makers_and_editors.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#LangCard5{
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://cms-assets.tutsplus.com/uploads/users/71/courses/1261/preview_image/practice-javascript-and-learn-functions-400x277.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#LangCard5:hover{
-  background:  url("https://cms-assets.tutsplus.com/uploads/users/71/courses/1261/preview_image/practice-javascript-and-learn-functions-400x277.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#LangCard6{
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://www.jhannat.com/uploads/images/202302/image_430x256_63fcf430cc650.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#LangCard6:hover{
-  background:  url("https://www.jhannat.com/uploads/images/202302/image_430x256_63fcf430cc650.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#LangCard7{
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("https://miro.medium.com/v2/resize:fit:3200/1*El82DHzQwuFxMIXzBzKjUA.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#LangCard7:hover{
-  background: url("https://miro.medium.com/v2/resize:fit:3200/1*El82DHzQwuFxMIXzBzKjUA.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#LangCard8{
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("https://ncube-digest.com/wp-content/uploads/2020/07/Express-JS.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#LangCard8:hover{
-  background: url("https://ncube-digest.com/wp-content/uploads/2020/07/Express-JS.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#LangCard9{
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("https://1.bp.blogspot.com/-xfjcAVsLG98/Xhmlk143NEI/AAAAAAAAHV4/QHDCdzFmnCUmHTKEoZfWQhOL1uEDYBrHQCLcBGAsYHQ/s640/MongoDB.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#LangCard9:hover{
-  background: url("https://1.bp.blogspot.com/-xfjcAVsLG98/Xhmlk143NEI/AAAAAAAAHV4/QHDCdzFmnCUmHTKEoZfWQhOL1uEDYBrHQCLcBGAsYHQ/s640/MongoDB.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#LangCard10{
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://www.linuxcapable.com/wp-content/uploads/2023/02/How-to-Back-Up-and-Restore-a-MySQL-Database.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#LangCard10:hover{
-  background:  url("https://www.linuxcapable.com/wp-content/uploads/2023/02/How-to-Back-Up-and-Restore-a-MySQL-Database.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#LangCard11{
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/107459562/original/4756caae8b30efb290aaab85271587928c2c5e42/develop-django-web-applications-and-django-rest-api-mobile-app.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#LangCard11:hover{
-  background:  url("https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/107459562/original/4756caae8b30efb290aaab85271587928c2c5e42/develop-django-web-applications-and-django-rest-api-mobile-app.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 #GermsLogo{
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./Images/logo.png');
  transition: 1s ease-in-out;
@@ -259,4 +144,166 @@
   color: white;
   border-color: white;
   
+}
+#ProjectCards {
+  width: 100%;
+  max-width: 340px;
+  min-width: 200px;
+  height: 250px;
+  background-color: #292929;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
+  border: 2px solid rgba(7, 7, 7, 0.12);
+  font-size: 16px;
+  transition: all 0.3s ease;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+.icon {
+  margin: 0 auto;
+  width: 100%;
+  height: 80px;
+  max-width: 80px;
+  background: linear-gradient(90deg, #cfd7e8  0%, #37a5e6 40%, rgba(0, 0, 0, 0.28) 60%);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.8s ease;
+  background-position: 0px;
+  background-size: 200px;
+}
+
+.icon svg {
+  fill: white;
+}
+
+#ProjectCards .title {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+#ProjectCards .text {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+  font-weight: 200;
+  letter-spacing: 2px;
+  opacity: 0;
+  max-height: 0;
+  transition: all 0.3s ease;
+}
+
+
+
+#ProjectCards:hover .text {
+  transition: all 0.3s ease;
+  opacity: 1;
+  max-height: 40px;
+}
+
+#ProjectCards:hover .icon {
+  background-position: -120px;
+  transition: all 0.3s ease;
+}
+
+#ProjectCards:hover .icon svg path {
+  fill: url('#gradientColor');
+  transition: all 0.3s ease;
+}
+/* #707a82*/
+
+
+#SkillsCard {
+  overflow: hidden;
+  position: relative;
+  background-color: #ffffff;
+  text-align: left;
+  border-radius: 0.5rem;
+  max-width: 350px;
+  min-height: 280px;
+  margin-bottom: 10px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.header {
+  padding: 1.25rem 1rem 1rem 1rem;
+  background-color: #ffffff;
+}
+
+.image {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 9999px;
+}
+
+.image svg {
+  color: #DC2626;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.content {
+  margin-top: 0.75rem;
+  text-align: center;
+}
+
+.title {
+  color: #111827;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+.message {
+  margin-top: 0.5rem;
+  color: #6B7280;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.actions {
+  margin: 0.75rem 1rem;
+  background-color: #F9FAFB;
+}
+
+.desactivate {
+  display: inline-flex;
+  padding: 0.5rem 1rem;
+  background-color: #051622;
+  color: #ffffff;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  justify-content: center;
+  width: 100%;
+  border-radius: 0.375rem;
+  border-width: 1px;
+  border-color: transparent;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+.desactivate:hover{
+  background-color: #0d2d44;
 }
