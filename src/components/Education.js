@@ -8,7 +8,7 @@ const Education = () => {
       <h2 className="fw-bold text-body-emphasis p-2 my-4" style={{textAlign:'center',fontFamily:'-moz-initial',backgroundColor:'skyblue',borderRadius:'15px' ,boxShadow:'rgba(0, 0, 0, 0.24) 0px 3px 8px'}} >Education</h2>
         </div>
         <div class="container my-5 "   >
-          <div class="p-5 text-center rounded-3" data-aos="fade-up" style={{backgroundColor:'#051622'}}>
+          <div class="p-3 text-center rounded-3" data-aos="fade-up" style={{backgroundColor:'#051622'}}>
             
             <h1 class="text-body-emphasis">
               <i class="fa fa-graduation-cap text-white " aria-hidden="true" data-aos="zoom-in"></i>
@@ -23,7 +23,7 @@ const Education = () => {
         </div>
 
         <div class="container my-5" id="edubox" >
-          <div class="p-5 text-center  rounded-3" data-aos="fade-up" style={{backgroundColor:'#051622'}}>
+          <div class="p-3 text-center  rounded-3" data-aos="fade-up" style={{backgroundColor:'#051622'}}>
             <h1 class="text-body-emphasis">
               <i class="fa fa-university text-white" aria-hidden="true" data-aos="zoom-in"></i>
             </h1>
@@ -37,7 +37,7 @@ const Education = () => {
         </div>
 
         <div class="container" id="edubox" >
-          <div class="p-5 text-center  rounded-3" data-aos="fade-up" style={{backgroundColor:'#051622'}}>
+          <div class="p-3 text-center  rounded-3" data-aos="fade-up" style={{backgroundColor:'#051622'}}>
             <h1 class="text-body-emphasis">
               <i className="fas fa-school text-white" data-aos="zoom-in"></i>
             </h1>
