@@ -309,3 +309,39 @@
 .desactivate:hover{
   background-color: #0d2d44;
 }
+#CertificateCard {
+  margin-left: -1rem;
+  margin-right: -1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  margin-bottom: 2rem;
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.25rem;
+  padding: 1.5rem;
+  cursor: pointer;
+}
+
+
+
+#CertificateCard > #certificateTitleName {
+  opacity: 0;
+  transition: all 0.5s ease;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  
+}
+
+#CertificateCard:hover > #certificateTitleName {
+  opacity: 1;
+  border-radius: 15px;
+  background-color: #051622;
+}

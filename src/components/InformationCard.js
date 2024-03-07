@@ -1,3 +1,6 @@
+import image1 from "../Images/UdemyCertificate.jpg"
+import image2 from "../Images/NqtCertificate.jpg"
+import image3 from "../Images/CodeVita.jpg"
 export const ProjectList = [
     {
         Title : "GEMS",
@@ -120,5 +123,22 @@ export const SkillsList = [
         Desc : "Django is a high-level, Python web framework that follows the Model-View-Controller (MVC) architectural pattern, providing a clean and efficient structure for building robust web applications.",
         Icon : "https://cdn-icons-png.flaticon.com/512/9307/9307630.png",
         Url : "https://docs.djangoproject.com/en/4.2/"
+    },
+]
+export const CertificateInfo = [
+    {
+        Title : "TCS CodeVita Season-10 Certificate",
+        Desc : " I have participated in TCS CodeVita Season-10, one of the most challenging coding competitions and honed my technical skills and problem solving skills.",
+        ImageUrl : `${image3}`
+    },
+    {
+        Title : "TCS NQT- Cognitive",
+        Desc : "I have participated in TCS NQT- Cognitive, one of the most challenging competitions and honed my technical skills and problem solving skills.",
+        ImageUrl : `${image2}`
+    },
+    {
+        Title : "Web Development Source",
+        Desc : "I successfully completed a comprehensive web development course on Udemy and earned a certificate (2023), showcasing my proficiency in various aspects of web development.",
+        ImageUrl : `${image1}`
     },
 ]
